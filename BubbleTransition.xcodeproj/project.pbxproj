@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		65FE57221B18556C003E5FCE /* BubbleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE57211B18556C003E5FCE /* BubbleTransition.swift */; };
-		A5B3F8581B184AB100729E6E /* BubbleTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B3F8571B184AB100729E6E /* BubbleTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		65FE57211B18556C003E5FCE /* BubbleTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BubbleTransition.swift; path = Source/BubbleTransition.swift; sourceTree = SOURCE_ROOT; };
 		A5B3F8521B184AB100729E6E /* BubbleTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BubbleTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B3F8561B184AB100729E6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5B3F8571B184AB100729E6E /* BubbleTransition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleTransition.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +46,6 @@
 		A5B3F8541B184AB100729E6E /* BubbleTransition */ = {
 			isa = PBXGroup;
 			children = (
-				A5B3F8571B184AB100729E6E /* BubbleTransition.h */,
 				65FE57211B18556C003E5FCE /* BubbleTransition.swift */,
 				A5B3F8551B184AB100729E6E /* Supporting Files */,
 			);
@@ -70,7 +67,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5B3F8581B184AB100729E6E /* BubbleTransition.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +112,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = A5B3F8481B184AB100729E6E;
@@ -275,11 +272,11 @@
 				INFOPLIST_FILE = BubbleTransition/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "it.fancypixel.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giangi0.BubbleTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -295,10 +292,10 @@
 				INFOPLIST_FILE = BubbleTransition/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "it.fancypixel.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.giangi0.BubbleTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

@@ -19,16 +19,7 @@ A custom modal transition that presents and dismiss a controller inside an expan
 ![BubbleTransition](https://raw.githubusercontent.com/andreamazz/BubbleTransition/master/assets/screenshot.gif)
 
 # Usage
-Install through [CocoaPods](http://cocoapods.org):
-```
-pod 'BubbleTransition', '~> 3.2.0'
-
-use_frameworks!
-```
-Install through [Carthage](https://github.com/Carthage/Carthage):
-```
-github "andreamazz/BubbleTransition"
-```
+Just need to import BubbleTransition.swift into your project.
 
 # Setup
 Have your view controller conform to `UIViewControllerTransitioningDelegate`. Set the `transitionMode`, the `startingPoint`, the `bubbleColor` and the `duration`.
@@ -115,34 +106,3 @@ var bubbleColor: UIColor = .white
 The color of the bubble. Make sure that it matches the destination controller's background color.  
 
 Checkout the sample project for the full implementation.
-
-# Author
-[Andrea Mazzini](https://twitter.com/theandreamazz). I'm available for freelance work, feel free to contact me.
-
-Want to support the development of [these free libraries](https://cocoapods.org/owners/734)? Buy me a coffee ☕️ via [Paypal](https://www.paypal.me/andreamazzini).  
-
-# Contributors
-Thanks to [everyone](https://github.com/andreamazz/BubbleTransition/graphs/contributors) kind enough to submit a pull request.
-
-# MIT License
-
-	Copyright (c) 2018 Andrea Mazzini. All rights reserved.
-
-	Permission is hereby granted, free of charge, to any person obtaining a
-	copy of this software and associated documentation files (the "Software"),
-	to deal in the Software without restriction, including
-	without limitation the rights to use, copy, modify, merge, publish,
-	distribute, sublicense, and/or sell copies of the Software, and to
-	permit persons to whom the Software is furnished to do so, subject to
-	the following conditions:
-
-	The above copyright notice and this permission notice shall be included
-	in all copies or substantial portions of the Software.
-
-	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-	OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-	MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-	IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-	CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-	TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-	SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
