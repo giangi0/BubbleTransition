@@ -6,12 +6,6 @@
 
 A custom modal transition that presents and dismiss a controller inside an expanding and shrinking _bubble_.
 
-<p align="center">
-  <a href='https://appetize.io/app/tck0418dftyfjxkqrfu34rwt44' alt='Live demo'>
-    <img width="150" height="75" src="assets/demo-button.png"/>
-  </a>
-</p>
-
 # Screenshot
 ![BubbleTransition](https://raw.githubusercontent.com/andreamazz/BubbleTransition/master/assets/screenshot.gif)
 
