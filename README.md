@@ -46,8 +46,6 @@ public func animationController(forDismissed dismissed: UIViewController) -> UIV
 }
 ```
 
-You can find the Objective-C equivalent [here](https://gist.github.com/andreamazz/9b0d6c7db065555ec0d7).
-
 # Swipe to dismiss
 
 You can use an interactive gesture to dismiss the presented controller. To enable this gesture, prepare the interactive transition:
@@ -96,10 +94,5 @@ The transition duration.
 var transitionMode: BubbleTranisionMode = .present
 ```
 The transition direction. Either `.present`, `.dismiss` or `.pop`.
-
-```swift
-var bubbleColor: UIColor = .white
-```
-The color of the bubble. Make sure that it matches the destination controller's background color.  
 
 Checkout the sample project for the full implementation.
