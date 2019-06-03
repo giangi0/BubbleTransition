@@ -7,9 +7,9 @@
 //
 
 import UIKit
-import BubbleTransition
 
 class ModalViewController: UIViewController {
+    
   @IBOutlet weak var closeButton: UIButton!
   weak var interactiveTransition: BubbleInteractiveTransition?
   
@@ -34,4 +34,5 @@ class ModalViewController: UIViewController {
     super.viewWillDisappear(animated)
     UIApplication.shared.setStatusBarStyle(.default, animated: true)
   }
+    
 }
