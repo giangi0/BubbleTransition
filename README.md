@@ -2,7 +2,7 @@
   <img width="420" height="240" src="assets/logo.png"/>
 </p>
 
-![Swift 4.0](https://img.shields.io/badge/swift-4.0-orange.svg)
+![Swift 5.0](https://img.shields.io/badge/swift-5.0-orange.svg)
 
 A custom modal transition that presents and dismiss a controller inside an expanding and shrinking _bubble_.
 
